@@ -50,15 +50,15 @@
   </div>
         <div id="code">
         <span class="comments">/**</span><br />
-        <span class="space"/><span class="comments">* Today, the 13th day of August, is your birthday.</span><br />
+        <span class="space"/><span class="comments">* Today, the 3th day of August, is your birthday.</span><br />
         <span class="space"/><span class="comments">* So I created a page to celebrate this extraordinary day.</span><br />
         <span class="space"/><span class="comments">*/</span><br />
-        Girl u = <span class="keyword">new</span> Girl(<span class="string">"May Zhao"</span>);<br />
-        <span class="comments">// Aug 13th, when the bell rang, your age increased </span><br />
+        Girl u = <span class="keyword">new</span> Girl(<span class="string">"Yana Volosyankina"</span>);<br />
+        <span class="comments">// Aug 3th, when the bell rang, your age increased </span><br />
         Date currentTime = <span class="keyword">new</span> Date(); <br />
         SimpleDateFormat formatter = <span class="keyword">new</span> SimpleDateFormat(<span class="string">"yyyy-MM-dd HH:mm:ss"</span>);<br />
         String dateString = formatter.format(currentTime);<br />
-        if( dateString.equals(<span class="string">"2013-08-13 00:00:00"</span>) ){</br>
+        if( dateString.equals(<span class="string">"2017-08-03 00:00:00"</span>) ){</br>
           u.age ++;</br>
         }</br>
         <span class="comments">// Our blessing will be with you simultaneously.</span><br />
@@ -99,15 +99,6 @@
       <span>a</span>
       <span>n</span> 
       <span>a</span>
-      <!-- <span>h</span> -->
-      <!-- <span>k</span>  -->
-      <!-- <span>a</span> -->
-      <!-- <span>t</span>
-    
-      <span>e</span>
-      <span>a</span>
-      <span>r</span>
-      <span>t</span> -->
     </div>
   </div>
 </div>

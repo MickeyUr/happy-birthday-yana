@@ -370,7 +370,7 @@ function showLoveU() {
 }
 
 		var together = new Date();
-		together.setFullYear(1997,7, 9);
+		together.setFullYear(1994,8, 3);
 		together.setHours(8);
 		together.setMinutes(0);
 		together.setSeconds(0);
