@@ -31,7 +31,7 @@ div#beach {
 
 div#video {
   position: absolute;
-  right: 242px;
+  right: 253px;
   bottom: 200px;
 }
 
@@ -483,7 +483,7 @@ div#sea {
 #code {
   color: green;
   position: absolute;
-  top: calc(50% - 80px);
+  top: calc(50% - 120px);
   left: calc(50% - 5%);
   font-family:"digit";
   font-size:20px;
@@ -497,7 +497,7 @@ div#sea {
 
 #messages{
 	font-family:"fjalla";
-	font-size:12px
+	font-size:11px
 }
 
 #elapseClock .digit{
@@ -507,7 +507,7 @@ div#sea {
 
 #loveu {
 	margin-top: 10px;
-	font-size: 15px;
+	font-size: 12px;
 }
 
 #loveu .signature{

@@ -400,6 +400,6 @@ function timeElapse(date){
 
 var codeWidth = $("#code").width();
 var codeHeight = $("#code").height();
-$("#code").css({"width": +codeWidth+150+ "px", "height": +codeHeight+ "px"});
+$("#code").css({"width": +codeWidth+ 80+"px", "height": +codeHeight+ "px"});
 console.log(codeWidth);
 console.log(codeHeight);

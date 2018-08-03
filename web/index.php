@@ -50,29 +50,31 @@
   </div>
         <div id="code">
         <span class="comments">/**</span><br />
-        <span class="space"/><span class="comments">* Today, the 3th day of August, is your birthday.</span><br />
-        <span class="space"/><span class="comments">* So I created a page to celebrate this extraordinary day.</span><br />
+        <span class="space"/><span class="comments">* Сегодня, 3-е августа, твой день рождения.</span><br />
+        <span class="space"/><span class="comments">* И я решил создать страничку чтобы отпраздновать этот день.</span><br />
         <span class="space"/><span class="comments">*/</span><br />
         Girl u = <span class="keyword">new</span> Girl(<span class="string">"Yana Volosyankina"</span>);<br />
-        <span class="comments">// Aug 3th, when the bell rang, your age increased </span><br />
+        <span class="comments">//Ты – самая прелестная, веселая, красивая и искренняя.</span><br />
         Date currentTime = <span class="keyword">new</span> Date(); <br />
         SimpleDateFormat formatter = <span class="keyword">new</span> SimpleDateFormat(<span class="string">"yyyy-MM-dd HH:mm:ss"</span>);<br />
         String dateString = formatter.format(currentTime);<br />
-        if( dateString.equals(<span class="string">"2017-08-03 00:00:00"</span>) ){</br>
+        if( dateString.equals(<span class="string">"2018-08-03 00:00:00"</span>) ){</br>
           u.age ++;</br>
         }</br>
-        <span class="comments">// Our blessing will be with you simultaneously.</span><br />
+        <!-- <span class="comments">// Our blessing will be with you simultaneously.</span><br /> -->
         <span class="keyword">new</span> Thread (){<br />
         @Override </br>
-        <span class="comments">// Forever and ever. I wish</span><br />
+        <span class="comments">// Отныне и навсегда я желаю:</span><br />
         while(true){</br>
-        <span class="comments">// luckiness,</span><br />
+        <span class="comments">// удачи,</span><br />
         u.fortune ++;</br>
-        <span class="comments">// happiness,</span><br />
+        <span class="comments">// счастья,</span><br />
         u.happiness ++;</br>
-          <span class="comments">// and everything you wish can be achieved.</span><br />
+        <span class="comments">// быть любимой,</span><br />
+        u.beLoved = true;</br>
+          <span class="comments">// Пусть тебе во всем везет, и мечты твои всегда сбываются!</span><br />
         }.start()</br>
-        <span class="comments">// The last thing I wanna say, boring and ordinary:</span><br />
+        <span class="comments">// Ведь так хочется видеть чтобы ты была счастливой, успешной и радостной – и не только в день рождения, а каждый день и каждую секунду.</span><br />
         System.out.println(<span class="string">"Happy Birthday !"</span>);
       </div>
   <div class="icons">
@@ -118,7 +120,7 @@
             <div id="elapseClock"></div>
           </div>
           <div id="loveu">
-            May you have a year full of happiness.<br/>
+            Пусть у тебя будет год, полный счастья.<br/>
             <div class="signature">- Misha</div>
           </div>
         </div>
